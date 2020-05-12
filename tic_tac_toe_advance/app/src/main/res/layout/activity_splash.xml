@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aj"
+    android:weightSum="3"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:weightSum="4"
+        android:orientation="vertical"
+        android:layout_weight="1.6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+<ImageView
+    android:background="@drawable/multi3"
+    android:layout_width="300dp"
+    android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@drawable/first4"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_marginLeft="25dp"
+                android:layout_height="45dp"/>
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/x"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="35dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@drawable/second1"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_marginLeft="25dp"
+                android:layout_height="45dp"/>
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/o"
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="35dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:background="@drawable/frnd"
+                android:layout_width="0dp"
+                android:layout_weight="1.3"
+                android:layout_marginLeft="25dp"
+                android:layout_height="45dp"/>
+
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/bande"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="0.9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </LinearLayout>
+
+        <ImageView
+            android:hint="Results"
+            android:id="@+id/play"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:layout_width="140dp"
+            android:layout_height="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
