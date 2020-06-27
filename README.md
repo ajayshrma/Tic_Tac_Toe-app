@@ -2,7 +2,7 @@
 Tic_Tac_Toe  A Professional Multiplayer Game app
 
 ## About
-Tic_Tac_Toe game is an Multiplayer application. yoou can play with  your friends.  
+Tic_Tac_Toe game is an Multiplayer application. you can play with  your friends.  
 
 ## Features!
 
